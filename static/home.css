@@ -1,0 +1,41 @@
+
+h3.home-content{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 10px 8px 2px lightblue;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    font-family: "楷体"：
+}
+div.bac{
+    margin: 0;
+    width: 100%;
+    background-size: 100% 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+div#container {
+   margin: 0 auto;
+    width: 400px;
+    height: 20em;
+    min-width: 30em;
+    max-width: 40em;
+}
+/* 今日，昨日，一周热门博客类型设置*/
+
+div.hot_data{
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+}
+div#hot1{
+    margin-top: 5px;
+    background: #dcdcdc;
+    border-style: double;
+    border-color: #c0c0c0;
+}
+
+
+

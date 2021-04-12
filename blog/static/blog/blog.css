@@ -1,0 +1,108 @@
+
+ul.blog-types{
+     list-style-type: none;
+
+}
+div.container{
+    margin-top: 60px;
+    background-color: #f5f5f5;
+    opacity: 0.8;
+}
+div.row{
+    margin-top: 15px;
+}
+div.panel-heading{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "楷体";
+}
+
+div.blog:not(:last-child){
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+
+}
+
+div.blog h3 {
+    margin-top: 0.5em;
+    font-size: 20px;
+    font-family: 楷体；
+    color:red;
+
+}
+div.paginator{
+    text-align: center;
+}
+
+div.blog p.blog-info{
+    margin-bottom: 0;
+}
+ul.blog-info-description{
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+ul.blog-info-description li{
+    display: inline-block;
+    margin-right: 2em;
+}
+div.blog-content {
+    text-indent: 2em;
+    margin-bottom: 2em;
+}
+div.blog-more{
+    margin-top: 1em;
+}
+div#body1{
+    height: 850px;
+    background:url(./img/bac4.jpg)
+}
+div#body2{
+    height: 390px;
+}
+div#body3{
+    height: 390px;
+}
+ /*登录模块样式*/
+ div.comment-area{
+    margin-top: 2em;
+ }
+h3.comment-area-title{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.4em;
+}
+
+div.django-ckeditor-widget {
+    width: 100%;
+}
+div.comment{
+    border-bottom:1px dashed #ccc;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+}
+div.reply {
+    margin-left: 2em;
+}
+
+div#reply_content_container{
+
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    background-color: #f8f8f8;
+    overflow: hidden;
+    padding:1em 1em 0.5em;
+}
+p#reply_title{
+
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 0.5em;
+}
+div.like{
+    color:  #337ab7;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5em 0.3em;
+}
+div.like .active{
+    color:red;
+}

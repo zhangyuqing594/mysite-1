@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: url(./img/title.jpg);
+    margin-top: 100px!important;
+}
+div.navbar-header{
+    font-size: 80px;
+    font-family: "微软雅黑";
+    font-weight: 700;
+    background: url(./img/title.jpg);
+    background-size: cover;
+}
+div.nav navbar-nav navbar-right{
+    background: url(./img/title.jpg);
+    background-size: cover;
+}
+
+ul{
+    list-style-type: none !important;
+}
+
+ul.navbar-right{
+    margin-right: 0;
+}
+div.row{
+    opacity: 0.8;
+}
